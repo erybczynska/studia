@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+ 	<meta http-equiv="Content-Type" content="application/xhtml+xml;
+         charset=UTF-8" />
+    <link rel="stylesheet" title="main" href="style.css" type="text/css" />
+    <link rel="alternate stylesheet" title="alt" href="style2.css" type="text/css" />
+    <link rel="stylesheet" media="print" type="text/css" href="style3.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+   <title>Ćwiczenie 3: tabele i listy</title>
+   
+ </head>
+ <body>
+ 	 <div class="title">
+ 		<h1>Ćwiczenie 3</h1>
+ 	</div>
+	<div class="container"> 
+      <div class="menu"> 
+	      	<h1>Menu</h1>
+	        <div class="cwiczenia">
+	              <ul>
+					<li><a href="index.html">Ćwczenie 1</a></li>
+					<li><a href="cw2.html">Ćwczenie 2</a></li>
+					<li><a href="cw4.html">Ćwczenie 4</a></li>  
+	              </ul>
+	        </div>
+	        <div class="menuStrona"> 
+	            <ul>
+					<li><a href="#tab">Tabela</a></li>
+					<li><a href="#list">Lista</a></li>		 
+					<li><a href="#def">Definicje</a></li>
+	            </ul>
+	        </div>
+      </div>	
+		<div class="wrapper">
+		 	<h3><a name="tab">Tabela</a></h3>
+
+		 	<table border="2">
+			 <thead>
+			  <tr>
+			     <th>Imię</th>
+			     <th>Nazwisko</th>
+			     <th>Wpłata</th>
+			  </tr>
+			 </thead>
+			 <tfoot>
+			  <tr>
+			     <td colspan="2">Suma</td>
+			     <td>130 zł</td>
+			  </tr>
+			 </tfoot>
+			 <tbody>
+			  <tr>
+			     <td>Ala</td>
+			     <td>Płączyńska</td>
+			     <td rowspan="2">50 zł</td>
+			  </tr>
+			  <tr>
+			     <td>Kasia</td>
+			     <td>Ciszewska</td>
+			  </tr>
+			  <tr>
+			     <td>Robert</td>
+			     <td>Tokarz</td>
+			     <td>70 zł</td>
+			  </tr>
+			 </tbody>
+			</table>
+
+		 	<h3><a name="list">Lista</a></h3>
+
+				<ol>
+				<li>Element</li>
+				<li> Element</li> 
+				<li>Element 
+				  <ol>
+					  <li>drugi poziom</li>
+					  <li>drugi poziom</li>
+				  </ol>
+				</li>
+				<li>Element 
+					<ol>
+						<li>Numeracja drugiego poziomu</li> 
+						<li>Numeracja drugiego poziomu 
+							<ol>
+								<li>Trzeci</li>
+								<li>Trzeci</li> 
+							</ol> 	
+						</li>
+						<li>Numeracja drugiego poziomu</li>
+					</ol>
+				</li>
+				<li>...</li> 
+				</ol> 
+
+		 	<h3><a name="def">Wykaz definicji</a></h3>
+
+			 <dl>
+			  <dt>Półmaraton</dt>
+			  <dd>Bieg na dystansie 21 km i 97,5 metra</dd>
+			  <dt>Maraton</dt>
+			  <dd>bieg na dystansie 42 km 195 metrów</dd>
+			</dl>
+
+			<p> Praesent pellentesque quis dui ornare gravida. Phasellus eu faucibus mauris, id mattis enim. Fusce dictum libero eget vestibulum dignissim. Vestibulum sit amet volutpat nulla. Duis urna mauris, malesuada vitae posuere eu, fermentum vestibulum sem. Aliquam porttitor enim sit amet orci pulvinar, id pharetra justo cursus. Vivamus eget augue pharetra, maximus diam vitae, dignissim odio. In lacinia ex consectetur velit sollicitudin bibendum. Phasellus sit amet ligula quis enim rutrum accumsan eget et quam. Curabitur elementum pulvinar justo, at scelerisque lectus feugiat sed. </p>
+		<p>
+    		<a href="http://validator.w3.org/check?uri=referer"><img class="validatorImage"
+      		src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+  		</p>
+  		<p>
+   		 <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img class="validatorImage" style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Poprawny CSS!" />
+    	</a>
+		</p>
+    
+		</div>
+  		<div style="clear: both;"></div>
+	</div>
+ </body>
+</html>

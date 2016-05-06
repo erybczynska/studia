@@ -1,0 +1,188 @@
+body {
+	font-family: "Lato";
+	background-image: url("stardust.png");
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+h1 {
+	letter-spacing: 3px;
+	color: #2B2C30;
+	text-align: center;
+}
+
+h3 {
+	color: #4F242E;
+}
+
+h4 {
+	color: #9C9C9C;
+}
+
+p {
+	text-indent: 50px;
+}
+
+p:first-letter { 
+	color: #C97A5B;
+	font-size: 150%;
+}
+
+
+hr {
+	border: 1px dashed #9C9C9C;
+}
+
+.title{
+	width: 100%;
+	margin: 0;
+  	background: rgba(93, 66, 78, 0.65);
+}
+
+.title h1 {
+	margin: 0;
+	padding: 20px;
+}
+
+.container {
+	max-width: 930px;
+	height: 100%;
+  	background: rgba(93, 66, 78, 0.65);
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+
+.wrapper {
+	max-width: 900px;
+	height: 100%;
+	margin-bottom: 0;
+  	background: rgba(103, 105, 115, 0.65);
+	padding-left: 15px;
+  	padding-right: 15px;
+  	padding-top: 15px;
+}
+
+.menu {
+	width: 100%;
+	min-height: 190px;
+	margin-top: 0;
+  	background: rgba(241, 241, 241, 0.35);
+}
+
+
+.menu h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.cwiczenia{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.cwiczenia ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.cwiczenia ul a {
+	color: black;
+	cursor: default;
+	text-decoration: none;
+	display: block;
+}
+
+.cwiczenia ul > li {
+	width: 100px;
+	height: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+  	background: rgba(76, 76, 76, 0.65);
+} 
+
+.cwiczenia ul > li:hover {
+	background: rgba(79, 36, 46, 0.65);
+	cursor: default;
+}
+
+.menuStrona{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.menuStrona ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.menuStrona ul a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	cursor: default;
+}
+
+.menuStrona ul > li {
+	width: 100px;
+	min-height: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+  	background: rgba(54, 54, 54, 0.65);
+} 
+
+.menuStrona ul > li:hover {
+	background: rgba(145, 67, 84, 0.65);
+	cursor: default;
+}
+
+.validatorImage {
+	opacity: 0.5;
+	margin: 0 auto;
+}
+
+table, td, th {
+    border: 2px solid #3D3E44;
+    background-color: #D4C7C7;
+}
+
+th {
+  	background: rgba(164, 129, 127, 0.65);
+}
+
+td:nth-child(3) {
+	background-color: #8A3F50;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol > li > ol {
+	list-style-type: lower-roman;
+}
+
+ol > li > ol > li > ol {
+	list-style-type: lower-greek;
+}
+
+#kot1 {
+	align: left;
+	margin: 15px;
+	opacity: 0.6;
+}
+
+#kot2 {
+	align: right;
+	margin: 15px;
+	opacity: 0.6;
+}
